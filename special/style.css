@@ -959,6 +959,34 @@ main {
   gap: 8px;
 }
 
+.subgrid-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.repo-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #ff6b6b;
+  font: 700 11px/1 var(--font-mono);
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+.repo-pill-btn:hover {
+  background: #ef4444;
+  color: #fff;
+  border-color: #ef4444;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.4);
+}
+
 /* ==========================================================================
    BENTO GRID PROJECTS
    ========================================================================== */
@@ -1062,6 +1090,11 @@ main {
 .bento-footer {
   border-top: 1px solid var(--border-subtle);
   padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .bento-tags {

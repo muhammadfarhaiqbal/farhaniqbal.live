@@ -447,69 +447,71 @@ document.addEventListener('DOMContentLoaded', () => {
 const projectSpecs = {
   1: {
     tag: '// ARCHITECTURE BLUEPRINT: EXP_01',
-    title: 'NEURALVAULT AI — MULTI-MODAL REASONING ENGINE',
+    title: 'CYBERSECURITY TOOLS & AUDIT SUITE',
     body: `
-      <p style="margin-bottom: 12px; color: #fff;"><strong>Core Architecture:</strong> Distributed autonomous agent orchestrator built for complex multi-hop retrieval and real-time reasoning tasks.</p>
+      <p style="margin-bottom: 12px; color: #fff;"><strong>Core Architecture:</strong> High-reliability Python and SQLite security auditing framework engineered for password entropy evaluation, network socket auditing, and phishing URL classification.</p>
       <div style="background: rgba(255, 255, 255, 0.04); border-left: 2px solid #ffffff; padding: 14px; margin-bottom: 16px; border-radius: 4px;">
         <strong style="color: #fff;">Engineering Highlights:</strong>
         <ul style="padding-left: 20px; margin-top: 6px; font-size: 0.9rem;">
-          <li>Sub-150ms structured JSON synthesis with automatic fallback routing.</li>
-          <li>Hybrid dense vector + sparse keyword search with custom cross-encoder rerankers.</li>
-          <li>Zero-data-leakage client sandbox with local PII token redaction.</li>
+          <li>Multi-threaded localhost and target network port scanner utilizing raw socket connections.</li>
+          <li>Entropy calculation and cryptographic hash breach auditing in password_checker.py.</li>
+          <li>Domain heuristic analyzer profiling malicious redirects and suspicious URL structures.</li>
+          <li>Relational SQLite logging module persisting scan telemetry and vulnerability reports.</li>
         </ul>
       </div>
-      <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim);">TECH: Python, PyTorch, LangChain, FastAPI, Next.js 15, ChromaDB, Docker.</p>
+      <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim);">TECH: Python 3, SQLite3, Sockets, Hashlib, RegEx, Security Auditing.</p>
     `,
-    repo: 'https://github.com/muhammadfarhaiqbal'
+    repo: 'https://github.com/muhammadfarhaiqbal/cybersecurity-tools'
   },
   2: {
     tag: '// ARCHITECTURE BLUEPRINT: EXP_02',
-    title: 'AETHER 3D CORE — REAL-TIME SPATIAL WEBGL ENGINE',
+    title: 'FARHANIQBAL.LIVE // 3D SPATIAL WEBGL ENGINE',
     body: `
-      <p style="margin-bottom: 12px; color: #fff;"><strong>Core Architecture:</strong> High-density 3D spatial web environment capable of executing 50,000+ physics particles in mobile and desktop browsers at rock-solid 60 FPS.</p>
+      <p style="margin-bottom: 12px; color: #fff;"><strong>Core Architecture:</strong> High-performance personal web platform utilizing Three.js WebGL rendering, custom liquid chrome PBR shaders, dynamic wireframe mode switching, and dual special edition routing.</p>
       <div style="background: rgba(255, 255, 255, 0.04); border-left: 2px solid #ffffff; padding: 14px; margin-bottom: 16px; border-radius: 4px;">
         <strong style="color: #fff;">Engineering Highlights:</strong>
         <ul style="padding-left: 20px; margin-top: 6px; font-size: 0.9rem;">
-          <li>Custom WebGL GLSL vertex and fragment shaders for chrome volumetric reflections.</li>
-          <li>Hardware-accelerated compute shaders with minimal CPU thermal footprint.</li>
-          <li>Progressive mesh streaming achieving 98/100 Google Lighthouse performance.</li>
+          <li>Real-time 3D metallic Torus Knot sculpture with velocity-reactive gyro damping.</li>
+          <li>Dynamic wireframe mesh switcher triggered via top HUD navigation.</li>
+          <li>Apple-style word-by-word scroll scrub illumination in the Manifesto chapter.</li>
+          <li>Automated GitHub Pages deployment mapped with Hostinger custom DNS records.</li>
         </ul>
       </div>
-      <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim);">TECH: Three.js, WebGL, WebGPU, GLSL Shaders, Blender, GSAP.</p>
+      <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim);">TECH: Three.js, WebGL, JavaScript, CSS3 Chrome Gradients, GitHub Pages API.</p>
     `,
-    repo: 'https://github.com/muhammadfarhaiqbal'
+    repo: 'https://github.com/muhammadfarhaiqbal/farhaniqbal.live'
   },
   3: {
     tag: '// ARCHITECTURE BLUEPRINT: EXP_03',
-    title: 'SYNAPSE PROTOCOL — REAL-TIME TELEMETRY PLATFORM',
+    title: 'CREATIVE DEVELOPER PORTFOLIO ENGINE',
     body: `
-      <p style="margin-bottom: 12px; color: #fff;"><strong>Core Architecture:</strong> High-throughput distributed telemetry streaming platform managing live message queues and asynchronous task workflows.</p>
+      <p style="margin-bottom: 12px; color: #fff;"><strong>Core Architecture:</strong> Lightweight front-end personal developer engine engineered with HTML5 Canvas particle systems, mouse reactive physics, and modern CSS3 layout architecture.</p>
       <div style="background: rgba(255, 255, 255, 0.04); border-left: 2px solid #ffffff; padding: 14px; margin-bottom: 16px; border-radius: 4px;">
         <strong style="color: #fff;">Engineering Highlights:</strong>
         <ul style="padding-left: 20px; margin-top: 6px; font-size: 0.9rem;">
-          <li>Benchmarked at 120,000 requests/sec with Redis Pub/Sub cluster.</li>
-          <li>Canvas-based real-time time-series visualizer without GC hiccups.</li>
-          <li>Strict RBAC session authorization with end-to-end encryption.</li>
+          <li>Custom particle canvas rendering with velocity vectors and proximity connections.</li>
+          <li>Staggered CSS3 transition animations and active scroll tracking.</li>
+          <li>Pure zero-framework architecture yielding sub-100ms first contentful paint.</li>
         </ul>
       </div>
-      <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim);">TECH: React, Node.js, PostgreSQL, Redis, Docker, WebSockets.</p>
+      <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim);">TECH: HTML5, CSS3 Grid/Flexbox, JavaScript ES6+, HTML5 Canvas API.</p>
     `,
-    repo: 'https://github.com/muhammadfarhaiqbal'
+    repo: 'https://github.com/muhammadfarhaiqbal/portfolio'
   },
   4: {
     tag: '// ARCHITECTURE BLUEPRINT: EXP_04',
-    title: 'CHRONOS DESIGN SYSTEM — TOKENIZED ARCHITECTURE',
+    title: 'C++ STUDENT RECORD SYSTEM & OOP FOUNDATIONS',
     body: `
-      <p style="margin-bottom: 12px; color: #fff;"><strong>Core Architecture:</strong> Modern enterprise design system built for high-density information architecture, accessibility compliance, and instant Figma synchronization.</p>
+      <p style="margin-bottom: 12px; color: #fff;"><strong>Core Architecture:</strong> Robust console software engineered in C++ utilizing object-oriented principles, binary file stream I/O for data persistence, dynamic student record indexing, and algorithmic grade sorting.</p>
       <div style="background: rgba(255, 255, 255, 0.04); border-left: 2px solid #ffffff; padding: 14px; margin-bottom: 16px; border-radius: 4px;">
         <strong style="color: #fff;">Engineering Highlights:</strong>
         <ul style="padding-left: 20px; margin-top: 6px; font-size: 0.9rem;">
-          <li>100% WCAG 2.1 AAA Accessibility verified.</li>
-          <li>Automated token compilation from Figma variables directly to CSS and React components.</li>
-          <li>45+ headless accessible primitives.</li>
+          <li>Encapsulated student classes with constructors, accessors, and memory pointers.</li>
+          <li>Binary file persistence using fstream (ifstream/ofstream) preventing data corruption.</li>
+          <li>Algorithmic binary search and sorting routines for rapid record indexing.</li>
         </ul>
       </div>
-      <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim);">TECH: Figma, Tailwind CSS, TypeScript, Storybook, Jest.</p>
+      <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim);">TECH: C++, OOP, Binary File I/O, Data Structures, Algorithms.</p>
     `,
     repo: 'https://github.com/muhammadfarhaiqbal'
   }
