@@ -1,0 +1,7 @@
+*.bak
+scratch_*
+adapt.py
+swarm/saai_original_swarm.js
+main.js
+sound.js
+swarm.js
