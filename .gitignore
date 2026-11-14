@@ -2,11 +2,12 @@
 scratch_*
 adapt.py
 swarm/saai_original_swarm.js
-sound.js
-swarm.js
 
 update_portfolio_cv.py
 write_full_index.py
-
 apply_silver_theme.py
 silver_*
+
+!special/swarm/swarm.js
+!special/sound.js
+!sound.js

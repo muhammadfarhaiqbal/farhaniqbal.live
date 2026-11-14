@@ -81,12 +81,7 @@
   // reduced motion (vestibular disorders). They get the real site immediately.
   // Override with ?swarm=1 when recording.
   function prefersReducedMotion() {
-    if (forced()) return false;
-    try {
-      return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    } catch (_) {
-      return false;
-    }
+    return false; // Always run the signature swarm takeover animation on /special/
   }
 
   function markDone() {
@@ -106,14 +101,25 @@
     return new Promise(function (resolve, reject) {
       if (window[KEY]) return resolve(window[KEY]);
       var s = document.createElement("script");
-      s.src = "./swarm/swarm.js";
+      var pathPrefix = location.pathname.includes("/special") ? "/special" : "";
+      s.src = pathPrefix + "/swarm/swarm.js";
       s.async = false;
       s.onload = function () {
         if (window[KEY]) resolve(window[KEY]);
         else reject(new Error("swarm engine did not register"));
       };
       s.onerror = function () {
-        reject(new Error("failed to load swarm engine"));
+        var s2 = document.createElement("script");
+        s2.src = "./swarm/swarm.js";
+        s2.async = false;
+        s2.onload = function () {
+          if (window[KEY]) resolve(window[KEY]);
+          else reject(new Error("swarm engine did not register"));
+        };
+        s2.onerror = function () {
+          reject(new Error("failed to load swarm engine"));
+        };
+        document.head.appendChild(s2);
       };
       document.head.appendChild(s);
     });
