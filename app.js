@@ -11,46 +11,46 @@
   // ==========================================================================
   const LAYER_DATA = {
     1: {
-      badge: 'LAYER 01 // COGNITIVE CORE',
-      title: 'Uncensored Base Cognitive Foundation',
-      desc: 'Local model inference running natively on a dedicated GPU workstation. Fully sovereign execution, free from vendor-imposed guardrail distortion.',
-      tags: ['Local Inference', 'GPU Accelerated']
+      badge: 'LAYER 01 // C++ OOP ARCHITECTURE',
+      title: 'C++ Object-Oriented Software Foundations',
+      desc: 'Structured C++ development emphasizing classes, objects, encapsulation, inheritance, memory pointers, and binary file I/O for reliable system execution.',
+      tags: ['C++ OOP', 'Memory & File I/O']
     },
     2: {
-      badge: 'LAYER 02 // PERSONALITY ASSEMBLY',
-      title: 'Dynamic Tone & Multi-Shard Assembly',
-      desc: 'Cognitive multi-perspective engine derived from the Multi-LLM Parliament architecture. Six distinct personality shards deliberate, adjust rhetorical style, and vote on execution paths based on task domain.',
-      tags: ['6-Shard Assembly', 'Deliberation Protocol']
+      badge: 'LAYER 02 // FRONT-END SYSTEMS',
+      title: 'Semantic HTML5 & Modern CSS3 Layouts',
+      desc: 'Clean, responsive web architecture built from scratch using pure CSS Flexbox, Grid, custom properties, and accessible HTML5 semantics with zero framework bloat.',
+      tags: ['HTML5 Semantic', 'CSS3 Responsive']
     },
     3: {
-      badge: 'LAYER 03 // AUDITORY INTERFACE',
-      title: 'Voice Layer (Emily Synthesis)',
-      desc: 'Integrated voice personality (Emily — deployed Feb 18, 2025). Provides low-latency acoustic synthesis, conversational inflection pacing, and natural bidirectional vocal exchange.',
-      tags: ['Emily Voice Agent', 'Low-Latency Prosody']
+      badge: 'LAYER 03 // DATABASE INTEGRITY',
+      title: 'Relational SQL Database Management',
+      desc: 'Relational data modeling, table normalization, primary/foreign key constraints, joins, and structured queries designed for data integrity.',
+      tags: ['SQL Schemas', 'Relational Modeling']
     },
     4: {
-      badge: 'LAYER 04 // AGENTIC CYCLE',
-      title: 'Autonomous 24/7 Execution Loop',
-      desc: 'Continuous autonomous agent loop (Observe → Decide → Execute → Reflect) firing every 15 minutes via systemd/cron on Kali Linux. Integrated with Telegram gateway for instant anomaly telemetry.',
-      tags: ['15m Autonomous Loop', 'Kali Linux Daemon']
+      badge: 'LAYER 04 // DIGITAL FORENSICS',
+      title: 'Forensic Analysis & Artifact Investigation',
+      desc: 'Rigorous digital evidence recovery, file header analysis, chain-of-custody protocols, and cryptographic checksum verification based on academic forensics training.',
+      tags: ['Digital Forensics', 'Evidence Integrity']
     },
     5: {
-      badge: 'LAYER 05 // PERSISTENT MEMORY',
-      title: '4-Tier Redundant Memory Infrastructure',
-      desc: 'Resilient memory mesh combining ChromaDB vector embeddings, SQLite FTS5 lexical search, PGLite knowledge graphs, and append-only daily logs. Survives restarts, crashes, and power cycles without data loss.',
-      tags: ['4-Tier Redundant Mesh', 'Zero-Loss Persistence']
+      badge: 'LAYER 05 // CYBER DEFENSE',
+      title: 'Cybersecurity Fundamentals & Network Defense',
+      desc: 'Core principles of network packet analysis, vulnerability mitigation, secure system configuration, and defense-in-depth methodologies.',
+      tags: ['Cyber Defense', 'Network Security']
     },
     6: {
-      badge: 'LAYER 06 // KNOWLEDGE ENGINE',
-      title: 'Proactive Knowledge Layer (GBrain)',
-      desc: 'Sensory ingestion pipeline connected to 478 custom tools across 14 MCP servers. Proactively monitors code repos, market structure anomalies, on-chain transactions, and OSINT telemetry feeds.',
-      tags: ['478 MCP Custom Tools', '14 Sovereign Servers']
+      badge: 'LAYER 06 // ACADEMIC RIGOR',
+      title: 'Islamia University of Bahawalpur (IUB ADP)',
+      desc: 'Formal academic degree program in Cybersecurity and Digital Forensics (CGPA 2.91/4.00), building upon a 90.9% Matric Science foundation and Pre-Medical discipline.',
+      tags: ['IUB Bahawalpur', 'CGPA 2.91 / 4.00']
     },
     7: {
-      badge: 'LAYER 07 // META-COGNITION',
-      title: 'Continuous Self-Evolution Engine',
-      desc: 'Meta-cognitive layer performing nightly failure autopsies, prompt self-refinement, tool latency benchmarking, and automated capability expansion. AI that improves its own operational code.',
-      tags: ['Self-Evolution Engine', 'Automated Postmortems']
+      badge: 'LAYER 07 // CONTINUOUS EVOLUTION',
+      title: 'Proactive Learning & Practical Engineering',
+      desc: 'Dedicated to continuous skill mastery: advancing through hands-on coding projects, digital security labs, algorithms, and production front-end development.',
+      tags: ['Practical Labs', 'Continuous Learning']
     }
   };
 
