@@ -42,9 +42,9 @@
     },
     6: {
       badge: 'LAYER 06 // ACADEMIC RIGOR',
-      title: 'Islamia University of Bahawalpur (IUB ADP)',
-      desc: 'Formal academic degree program in Cybersecurity and Digital Forensics (CGPA 2.91/4.00), building upon a 90.9% Matric Science foundation and Pre-Medical discipline.',
-      tags: ['IUB Bahawalpur', 'CGPA 2.91 / 4.00']
+      title: 'Islamia University of Bahawalpur · 8th Semester',
+      desc: 'Currently enrolled in the 8th semester of Cybersecurity and Digital Forensics at Islamia University of Bahawalpur (CGPA 2.91/4.00), building upon a 90.9% Matric Science foundation and Pre-Medical discipline.',
+      tags: ['8th Sem Enrolled', 'CGPA 2.91 / 4.00']
     },
     7: {
       badge: 'LAYER 07 // CONTINUOUS EVOLUTION',

@@ -36,10 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const roleSlot = document.getElementById('roleSlot');
   const roles = [
     'Cybersecurity & Forensics',
+    '8th Semester Enrolled (IUB)',
     'Front-End Web Developer',
     'C++ (OOP) Programmer',
     'Relational SQL Specialist',
-    'Islamia Univ. Bahawalpur (ADP)'
+    'Islamia Univ. Bahawalpur'
   ];
   let rIndex = 0;
 
